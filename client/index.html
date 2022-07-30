@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>SEO MOLDMAKER v0.3</title>
+        <link rel="stylesheet" href="../css/styles.css" />
+    </head>
+    <body>
+        <!-- 1) Simple HTML UI elements to get us started -->
+
+        <!-- 2) A button -->
+        <div class="content">
+            <div id="container">
+                <div class="info_text">All Finger numbers must be odd.</div>
+                <div class="main_group">
+                    <div class="item_group">
+                        <div id="depth_length" class="item_icon"></div>
+                        <label class="item_label">Depth Length</label>
+                        <div class="input_group">
+                            <input
+                                type="number"
+                                id="inputDepthLength"
+                                class="text_input"
+                                style="vertical-align: baseline"
+                                value="20"
+                            />
+                            <div>mm</div>
+                        </div>
+                    </div>
+                    <div class="item_group">
+                        <div id="width_finger" class="item_icon"></div>
+                        <label class="item_label">Width Fingers</label>
+                        <div class="input_group">
+                            <input
+                                type="number"
+                                id="inputWidthFinger"
+                                class="text_input"
+                                style="vertical-align: baseline"
+                                value="5"
+                            />
+                            <div>qt</div>
+                        </div>
+                    </div>
+                    <div class="item_group">
+                        <div id="height_finger" class="item_icon"></div>
+                        <label class="item_label">Height Fingers</label>
+                        <div class="input_group">
+                            <input
+                                type="number"
+                                id="inputHeightFinger"
+                                class="text_input"
+                                style="vertical-align: baseline"
+                                value="5"
+                            />
+                            <div>qt</div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="linestyle2" />
+                <div class="main_group">
+                    <div class="item_group">
+                        <div id="depth_finger" class="item_icon"></div>
+                        <label class="item_label">Depth Fingers</label>
+                        <div class="input_group">
+                            <input
+                                type="number"
+                                id="inputDepthFinger"
+                                class="text_input"
+                                style="vertical-align: baseline"
+                                value="3"
+                            />
+                            <div>qt</div>
+                        </div>
+                    </div>
+                    <div class="item_group">
+                        <div id="thickness" class="item_icon"></div>
+                        <label class="item_label">Thickness</label>
+                        <div class="input_group">
+                            <input
+                                type="number"
+                                id="inputThickness"
+                                class="text_input"
+                                style="vertical-align: baseline"
+                                value="3"
+                            />
+                            <div>mm</div>
+                        </div>
+                    </div>
+                    <div class="item_group">
+                        <div id="gap" class="item_icon"></div>
+                        <label class="item_label">Gap Revise</label>
+                        <div class="input_group">
+                            <input
+                                type="number"
+                                id="inputGap"
+                                class="text_input"
+                                style="vertical-align: baseline"
+                                value="0.2"
+                            />
+                            <div>mm</div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="linestyle2" />
+                <div class="main_group">
+                    <div class="item_group">
+                        <div id="moldMargin" class="item_icon"></div>
+                        <label class="item_label">Margin</label>
+                        <div class="input_group">
+                            <input
+                                type="number"
+                                id="inputMargin"
+                                class="text_input"
+                                style="vertical-align: baseline"
+                                value="8"
+                            />
+                            <div>mm</div>
+                        </div>
+                    </div>
+                    <div class="item_group">
+                        <div id="cover" class="item_icon"></div>
+                        <label class="item_label">isCover</label>
+                        <div >
+                            <label class="topcoat-switch">
+                                <input type="checkbox" id="inputCover" class="topcoat-switch__input">
+                                <div class="topcoat-switch__toggle"></div>
+                             </label>
+                        </div>
+                    </div>
+                    <div class="item_group">
+                        <button id="createBtn"><div id="createBtn_icon"></div>Create Mold</button>
+                    </div>
+                </div>
+                <hr class="linestyle2" />
+                <div class="copyright_text">Developed by Seo.JY 2022</div>
+            </div>
+        </div>
+        <!-- 3) Add your script dependencies here, including CEP's CSInterface.js library -->
+        <script type="text/javascript" src="CSInterface.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
