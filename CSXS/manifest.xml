@@ -35,11 +35,11 @@
                     <Menu>SEO MOLDMAKER</Menu>
                     <Geometry>
 						<Size>
-							<Height>480</Height>
+							<Height>441</Height>
 							<Width>280</Width>
 						</Size>
 						<MinSize>
-							<Height>480</Height>
+							<Height>441</Height>
 							<Width>280</Width>
 						</MinSize>
                     </Geometry>
